@@ -1,0 +1,44 @@
+{
+  "name": "karma-testing-demonstration",
+  "version": "0.0.1",
+  "description": "A simple karma-jasmine-browserify setup",
+  "main": "server.js",
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start src/test/karma.conf.js",
+    "serve": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sergeon/karma-testing-demonstration.git"
+  },
+  "keywords": [
+    "karma",
+    "jasmine",
+    "unit-testing",
+    "testing"
+  ],
+  "author": "Sergeon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sergeon/karma-testing-demonstration/issues"
+  },
+  "homepage": "https://github.com/Sergeon/karma-testing-demonstration#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.7",
+    "browserify": "^13.3.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "jasmine": "^2.5.3",
+    "karma": "^1.4.0",
+    "karma-browserify": "^5.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
